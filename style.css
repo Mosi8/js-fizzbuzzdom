@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(0, 140, 149);
+}
+
+section {
+    width: 1000px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    background-color: rgb(255, 191, 0);
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+}
+
+.verde {
+    background-color: rgb(92, 201, 67);
+}
+
+.rosso {
+    background-color: rgb(230, 63, 71);
+}
+
+.blu {
+    background-color: rgb(67, 116, 242);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px auto;
+    color: #fff;
+}
+
